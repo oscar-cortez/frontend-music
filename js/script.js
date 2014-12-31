@@ -41,7 +41,7 @@ try {image.push(parsed_json["tracks"]["track"][i]["image"][2]["#text"])}
 catch(err){image.push("images/cabio.jpg")}
 $(".datos").append(
 "<div class = 'row'>"+
-	"<div class ='span12'>"+
+	"<div class ='span10'>"+
 	"<div class = 'row'>"+
 	"<div class ='span2'>"+
 	"<h3>"+
@@ -112,7 +112,7 @@ OrderList.sort(az);
 for (var i = 0; i <50; i++) {
 $(".datos").append(
 "<div class = 'row'>"+
-	"<div class ='span12'>"+
+	"<div class ='span10'>"+
 	"<div class = 'row'>"+
 	"<div class ='span2'>"+
 		(i+1)+
@@ -153,7 +153,7 @@ for (var i = 0; i <50; i++) {
 if (OrderList[x] === lis[i]) {
 $(".datos").append(
 "<div class = 'row'>"+
-	"<div class ='span12'>"+
+	"<div class ='span10'>"+
 	"<div class = 'row'>"+
 	"<div class ='span2'>"+
 		(i+1)+
@@ -198,7 +198,7 @@ var play = "http://img268.imageshack.us/img268/4378/buttonplayc.png";
 $(".datos").datos(
 "<div class = 'row'>"+
 	"<div class = 'row'>"+
-	"<div class ='span2'>"+
+	"<div class ='span12'>"+
 		(i+1)+
 		"</div>"+
 		"<div class = 'row'>"+
@@ -238,7 +238,7 @@ for (var i = 0; i <50; i++) {
 if (OrderDuration[x] === duration[i]) {
 $(".datos").append(
 "<div class = 'row'>"+
-	"<div class ='span12'>"+
+	"<div class ='span10'>"+
 	"<div class = 'row'>"+
 	"<div class ='span2'>"+
 		(i+1)+
@@ -282,7 +282,7 @@ if (OrderPlayCount[x] === playcounts[i]) {
 
 $(".datos").append(
 "<div class = 'row'>"+
-	"<div class ='span12'>"+
+	"<div class ='span10'>"+
 	"<div class = 'row'>"+
 	"<div class ='span2'>"+
 		(i+1)+

@@ -4,22 +4,17 @@ background-image: url("http://www.webnlinea.in/cimages/contacto@opticareyher.com
 
 }
 h1{
-text-align:center;
+
 }
 .intro{
 text-align:center;
 }
-.mostrar{
-margin: 0px 110px 0px 0px;
-float:right;
-}
+
 
 .row{
 background-color: #FFFACD;
 }
-.container{
-text-align:center;
-}
+
 img{
 border: 4px solid black;
 
@@ -30,5 +25,8 @@ margin-left:1000px;
 .table{
 	background-color: black;
 	color:white; 
+	width: 900px;
 }
-
+.datos{
+	margin-left: 90px;
+}
